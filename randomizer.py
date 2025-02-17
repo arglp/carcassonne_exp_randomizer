@@ -48,4 +48,4 @@ class Randomizer:
     def draw_images(self):
         print("Drawing_images:")
         for i in range(len(self.elect_list)):
-            self.win.draw_image(100 + 120 * i, 100, self.elect_list[i].img)
+            self.win.draw_image(i, self.elect_list[i].img)
