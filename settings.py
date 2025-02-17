@@ -6,4 +6,5 @@ class Settings:
         self.win_width = 420
         self.win_heigth = 210
         self.exp_elect_nr = 5
+        self.method = 0
     
