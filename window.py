@@ -16,10 +16,6 @@ class Window:
         self.__root.mainloop()
 
     def set_geometry(self):
-        screen_width = self.__root.winfo_screenwidth()
-        screen_height = self.__root.winfo_screenheight()
-        #x_offset = (screen_width - self.__width) // 2
-        #y_offset = (screen_height - self.__height) // 2
         self.__root.geometry(f"{self.__width}x{self.__height}+{200}+{200}")
 
     def draw_images(self, images):
