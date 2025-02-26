@@ -4,14 +4,11 @@ from expansion import Expansion
 import random
 
 class Randomizer:
-    def __init__ (self):
-        self.settings = Settings()
+    def __init__ (self, win, settings):
+        self.settings = settings
+        self.win = win
         self.exp_list, self.headings = self.read_src()
-        self.win = Window(self.settings.win_heigth, self.settings.win_width)
         self.elect_list = []
-        self.randomize()
-        self.win.loop()
-
 
     def read_src(self):
         with open(self.settings.src_exp, encoding=self.settings.src_exp_encoding) as file:
@@ -32,6 +29,8 @@ class Randomizer:
                 file.write(f"\n{exp.type};{exp.nr};{exp.de};{exp.es};{exp.play_count};{exp.weight};{exp.bias}")
 
     def randomize(self):
+        self.elect_list = []
+        self.win.delete_images()
         if self.settings.method == 0:
             self.basic_randomization()
         if self.settings.method == 1:
