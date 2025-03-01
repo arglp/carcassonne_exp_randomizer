@@ -1,12 +1,12 @@
 type;nr;de;es;play_count;weight,bias
-big;1;Wirtshäuser und Kathedralen;Posadas y catedrales;3;3;1
-big;2;Händler und Baumeister;Constructores y comerciantes;2;2;1
+big;1;Wirtshäuser und Kathedralen;Posadas y catedrales;4;4;1
+big;2;Händler und Baumeister;Constructores y comerciantes;3;3;1
 mini;1;Die Fluggeräte;Las máquinas voladoras;1;1;1
-mini;2;Die Depeschen;Los despachos;4;4;1
+mini;2;Die Depeschen;Los despachos;5;5;1
 mini;3;Die Fähren;Los transbordadores;4;4;1
 mini;4;Die Goldminen;Las minas de oro;4;4;1
-mini;5;Magier & Hexe;El mago y la bruja;5;5;1
+mini;5;Magier & Hexe;El mago y la bruja;6;6;1
 mini;6;Die Räuber;Los ladrones;4;4;1
 mini;7;Die Kornkreise;Los circulos en el cultivo;2;2;1
 extra;1;Der Abt;El abad;5;5;1
-extra;2;Der Fluss;El río;5;5;1
+extra;2;Der Fluss;El río;6;6;1
