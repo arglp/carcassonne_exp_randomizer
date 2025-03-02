@@ -1,6 +1,6 @@
 class Settings:
     def __init__ (self):
-        self.src_exp = "src/expansionsreal.csv"
+        self.src_exp = "src/expansions.csv"
         self.src_dir_img = "src/img"
         self.src_exp_encoding ="utf-8-sig"
         self.win_width = 420
